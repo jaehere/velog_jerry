@@ -6,7 +6,7 @@ on:
       branches:
         - main  
   schedule:
-    - cron: '0 22 * * *'  # 매일 오후 7시에 업로드
+    - cron: '23 9 * * *'  # 매일 오후 7시에 업로드
 
 jobs:
   update_blog:
