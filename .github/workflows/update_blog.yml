@@ -6,7 +6,7 @@ on:
       branches:
         - main  
   schedule:
-    - cron: '0 0 * * *'  # 매일 오후 7시에 업로드
+    - cron: '0 15 * * *'  # 매일 자정에 실행, 한국 시간 기준 (UTC 15:00)
 
 jobs:
   update_blog:
